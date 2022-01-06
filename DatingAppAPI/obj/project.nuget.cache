@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "g0aQFk6SGHBC5IE1NZ30YgOas31iFjRTOSz9MPJIVep93gVfbnl/JZo6aooIj9HDF2YF6Tsd1egs2ToYmMpRhQ==",
+  "success": false,
+  "projectFilePath": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Swashbuckle.AspNetCore (>= 6.2.3)' for 'net6.0'.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
