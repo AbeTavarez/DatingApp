@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {}
+    "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {
+    "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectUniqueName": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
         "projectName": "DatingAppAPI",
-        "projectPath": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectPath": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
         "packagesPath": "C:\\Users\\Abraham\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\obj\\",
+        "outputPath": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abraham\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
