@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace DatingAppAPI.Controllers;
-
+namespace DatingAppAPI.Controllers
+{
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
@@ -29,4 +29,5 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+}
 }
