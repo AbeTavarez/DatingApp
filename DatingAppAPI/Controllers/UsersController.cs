@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using DatingAppAPI.Data;
 using System.Collections.Generic;
 using DatingAppAPI.Entities;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace DatingAppAPI.Controllers
 {
@@ -20,15 +22,15 @@ namespace DatingAppAPI.Controllers
         }
         //* Route /api/users
         [HttpGet]
-        public ActionResult<IEnumerable<AppUser>> GetUsers()
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
-            return _context.Users.ToList();
+            return await _context.Users.ToListAsync();
         }
         //* @Route /api/users/1
         [HttpGet("{id}")]
-        public ActionResult<AppUser> GetUser(int id)
+        public async Task<ActionResult<AppUser>> GetUser(int id)
         {
-            return _context.Users.Find(id);
+            return await _context.Users.FindAsync(id);
         }
     }
 }
