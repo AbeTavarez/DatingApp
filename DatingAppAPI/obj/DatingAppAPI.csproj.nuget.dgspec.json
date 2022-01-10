@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {}
+    "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {
+    "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectUniqueName": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
         "projectName": "DatingAppAPI",
-        "projectPath": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
+        "projectPath": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\DatingAppAPI.csproj",
         "packagesPath": "C:\\Users\\Abraham\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\DatingAppNG\\DatingAppAPI\\obj\\",
+        "outputPath": "D:\\Programming\\DatingAppNG\\DatingAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abraham\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.1, )"
